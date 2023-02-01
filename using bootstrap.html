@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Website Using Bootstrap 5</title>
+	<link rel="stylesheet" type="text/css" href="using-bootstrap.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg bg-white px-4 border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-1" href="#">Baf^<span class="text-primary">03</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-end">
+        <li class="nav-item">
+          <a class="nav-link active text-primary" aria-current="page" href="#" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">SEO</a></li>
+            <li><a class="dropdown-item" href="#">Web Design</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Graphic design</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+              </ul>
+      
+    </div>
+  </div>
+</nav>	
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://img.freepik.com/premium-photo/tv-camera-broadcast-crane-tripod-shooting-recording-broadcasting-content-studio-production-air-tv-online-internet-live-show-hd-video-recording-crane-selective-focus_258335-3167.jpg?w=2000" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://c1.wallpaperflare.com/preview/631/221/127/photographer-man-camera-hand.jpg" class="d-block w-100" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1516357231954-91487b459602?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+</header>	
+
+<section class="about my-5">
+	<div class="container">
+
+		<div class="text-center my-5">
+			<h1 >About <span class="text-primary">me</span></h1>
+			<hr/ class="w-25 m-auto">
+		</div>
+		<div class="row">
+		<div class="col-sm-12 col-md-6 col-lg-6 col-12">
+			<h1>what do you<span class="text-primary"> want to know?</span></h1>
+			<p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<button type="button" class="btn btn-dark mb-5">More About Us
+			</button>
+
+		<div class="accordion" id="accordionExample">
+ 	 		<div class="accordion-item">
+    			<h2 class="accordion-header" id="headingOne">
+      				<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 	aria-expanded=	"true" aria-controls="collapseOne">
+        				My hobbies
+      				</button>
+    			</h2>
+
+   				<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+
+      				<div class="accordion-body">
+        				<strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the apg our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      				</div>
+   				</div>
+ 		 	</div>
+
+ 			<div class="accordion-item">
+    			<h2 class="accordion-header" id="headingTwo">
+      				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       					 My Qualification
+     				</button>
+    			</h2>
+
+    			<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+
+      				<div class="accordion-body">
+        				<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the approperriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      				</div>
+    			</div>
+  			</div>
+
+  			<div class="accordion-item">
+    				<h2 class="accordion-header" id="headingThree">
+      					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        					My Dreams
+      					</button>
+    				</h2>
+    			<div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      				<div class="accordion-body">
+        				<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin ault variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+     	 			</div>
+    			</div>
+  			</div>
+
+		</div>
+		</div>
+
+
+
+		<div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
+			<img src="https://media.istockphoto.com/photos/portrait-of-handsome-smiling-young-man-with-crossed-arms-picture-id1200677760?b=1&k=20&m=1200677760&s=612x612&w=0&h=23iBfzKPZy2iU5n1Fh3DEeLcJXaLmTxNqjwRUKZmgWM= "class="img-fluid img-thumbnail">
+		</div>
+	</div>
+</div>		
+</section>
+
+<section class="services py-5 bg-light">
+	<div class="container">
+
+		<div class="text-center my-5">
+			<h1>Our <span class="text-primary">Services</span></h1>
+			<hr/ class="w-25 m-auto">
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-4 col-lg-4 col-12 m-auto ">
+				<div class="card" style="width: 18rem;">
+  					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/LEI0440_Leica_IIIf_chrom_-_Sn._580566_1951-52-M39_Blitzsynchron_front_view-6531_hf-.jpg/1200px-LEI0440_Leica_IIIf_chrom_-_Sn._580566_1951-52-M39_Blitzsynchron_front_view-6531_hf-.jpg" class="card-img-top" alt="...">
+  				<div class="card-body">
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  				</div>
+				</div>
+
+				
+
+		</div>
+		<div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+			<div class="card" style="width: 18rem;">
+  					<img src="https://media.istockphoto.com/id/618066222/photo/camera-capturing-a-forest.jpg?s=612x612&w=0&k=20&c=Mqr3fFI2QPY09_bu3GyRYJvcdwBO2qeHPT88GFsLTS4=" class="card-img-top" alt="...">
+  				<div class="card-body">
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+			<div class="card" style="width: 18rem;">
+  					<img src="https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNhbWVyYXxlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top"  alt="...">
+  				<div class="card-body">
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  				</div>
+			</div>
+
+		</div>
+		</div>
+	</div>
+	
+</section>
+
+<section class="team my-5 text-center">
+
+	<div class="container">
+		<div class="text-center my-5">
+		<h1>Our <span class="text-primary">Team</span></h1>
+		<hr/ class="w-25 m-auto">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+			<div class="card text-center m-auto" style="width: 18rem;">
+  				<img src="https://www.shutterstock.com/image-photo/male-office-worker-sitting-desk-260nw-479557279.jpg" class="card-img-top img fluid" alt="...">
+  				<div class="card-body">
+   					 <h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    				<a href="#" class="btn btn-primary">Go somewhere</a>
+  				</div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+			<div class="card text-center m-auto" style="width: 18rem;">
+  				<img src="https://as1.ftcdn.net/v2/jpg/04/23/59/74/1000_F_423597477_AKCjGMtevfCi9XJG0M8jter97kG466y7.jpg" class="img-fluid " alt="...">
+  				<div class="card-body">
+   					 <h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    				<a href="#" class="btn btn-primary">Go somewhere</a>
+  				</div>
+  			</div>
+		</div>
+		<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+			<div class="card text-center m-auto" style="width: 18rem;">
+  				<img src="https://i.pinimg.com/736x/2e/3e/df/2e3edf33aa91d808a55833618479f546.jpg " class="card-img-top" alt="...">
+  				<div class="card-body">
+   					 <h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    				<a href="#" class="btn btn-primary">Go somewhere</a>
+  				</div>
+  			</div>
+		</div>
+	</div>
+	
+</section>
+	
+<section>
+	<div class="container py-5">
+		<div class="text-center my-5">
+		<h1>Feel Free <span class="text-primary"> To Connect</span></h1>
+		<hr/ class="w-25 m-auto">
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-4 col-lg-4 col-12 m-auto">
+				<form>
+  					<div class="mb-3">
+    					<label for="exampleInputEmail1" class="form-label">Email address</label>
+    					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    					<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  					</div>
+  
+  					<div class="mb-3 form-check">
+    					<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    					<label class="form-check-label" for="exampleCheck1">Not a Robot</label>
+  					</div>
+  					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+
+			<div class="col-sm-12 col-md-4 col-lg-4 col-12 m-auto">
+				<img src="https://media.istockphoto.com/photos/portrait-of-handsome-smiling-young-man-with-crossed-arms-picture-id1200677760?b=1&k=20&m=1200677760&s=612x612&w=0&h=23iBfzKPZy2iU5n1Fh3DEeLcJXaLmTxNqjwRUKZmgWM= ">
+
+			</div>
+
+
+		</div>
+</section>
+
+<div class="container-fluid bg-light p-2 text-center ">Copyrights BAF 2023</div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
